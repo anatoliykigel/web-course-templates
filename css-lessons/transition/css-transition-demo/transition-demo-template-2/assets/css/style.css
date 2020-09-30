@@ -1,0 +1,39 @@
+    .menu > * {
+        box-sizing: border-box;
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    .menu {
+        width: 250px;
+        padding: 10px;
+        border: 2px solid gray;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px 1px gray;
+    }
+
+    .menu > header {
+        font-size: 42px; 
+        text-shadow: 0px 0px 3px gray;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        margin-top: 8px;
+        font-size: 18px;
+        border-radius: 5px;	
+        font-weight: 900;
+        color: green;
+        background-color: white;	
+        border: 2px solid green;
+    }
+
+    button:hover {
+        background-color: #eeeeee;
+    }
+
+    button:active {
+        background-color: #deffd7;
+    }

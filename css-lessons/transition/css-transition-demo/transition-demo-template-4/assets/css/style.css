@@ -1,0 +1,60 @@
+
+    body {
+        margin: 0;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 900;
+    }
+
+    body > * {
+        box-sizing: border-box;
+    }
+
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    .box{
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        width: 600px; 
+    }
+
+    .item{
+        font-size: 28px;
+        text-align: center;
+        padding: 10px;
+        color: white;  
+        flex-grow: 1;
+    }
+
+    .item > a {
+        color: white;
+    }
+
+    /* items colors */
+
+    .item-a{
+        background-color: brown;
+    }
+    
+    .item-b{
+        background-color: teal;
+    }
+
+    .item-c{
+        background-color: purple;
+    }
+
+    .item-d{
+        background-color: orange;
+    }
+
+    .item-e{
+        background-color: olivedrab;
+    }
+
+   
