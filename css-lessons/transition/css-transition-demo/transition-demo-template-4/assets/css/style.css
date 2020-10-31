@@ -1,60 +1,58 @@
+/* Start Template Styles */
 
-    body {
-        margin: 0;
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: 900;
-    }
+@font-face {
+    font-family: 'Grandstander';
+    src: url(../fonts/grandstander.ttf);
+}
 
-    body > * {
-        box-sizing: border-box;
-    }
+* {
+    box-sizing: border-box;
+}
 
-    main {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-    }
+html {
+    font-size: 12px;
+}
 
-    .box{
-        display: flex; 
-        align-items: center;
-        justify-content: center;
-        width: 600px; 
-    }
+body {
+    margin: 0;
+    font-family: 'Grandstander', 'Courier New', Courier, monospace;
+}
 
-    .item{
-        font-size: 28px;
-        text-align: center;
-        padding: 10px;
-        color: white;  
-        flex-grow: 1;
-    }
+.container {
+    width: clamp(768px, 100vw ,1140px);
+    margin: 1rem auto;
+}
 
-    .item > a {
-        color: white;
-    }
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-    /* items colors */
+.flex-container > .flex-cell {
+    flex-basis: 25%;
+    padding: 1.5rem;
+}
 
-    .item-a{
-        background-color: brown;
-    }
-    
-    .item-b{
-        background-color: teal;
-    }
+.component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 0px 1rem rgba(255,255,255,0.5);
+    color: white;
+    background-color: gray;
+    text-decoration: none;
+    min-height: 12rem;
+    font-size: 3rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    padding-top: 2rem;
+}
 
-    .item-c{
-        background-color: purple;
-    }
+.component > .details {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
 
-    .item-d{
-        background-color: orange;
-    }
+/* End Template Styles */
 
-    .item-e{
-        background-color: olivedrab;
-    }
-
-   

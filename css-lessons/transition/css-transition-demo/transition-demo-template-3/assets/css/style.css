@@ -1,4 +1,6 @@
-
+    
+    /* Start Template Styles */
+   
     body {
         margin: 0;
     }
@@ -19,3 +21,5 @@
         border-radius: 20px;
         filter: grayscale(100%);
     }
+
+    /* End Template Styles */
